@@ -44,7 +44,7 @@
               </a>
               <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                 <div class="message-body">
-                  <a href="setting.html" class="d-flex align-items-center gap-2 dropdown-item">
+                  <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
                     <i class="ti ti-mail fs-6"></i>
                     <p class="mb-0 fs-3">My Account</p>
                   </a>
@@ -52,7 +52,7 @@
                 </div>
               </div>
             </li>
-          </ul> 
+          </ul>
         </div>
       </div>
     </nav>
@@ -60,31 +60,26 @@
 
     <!--  Main wrapper -->
     <div class="container-fluid">
-      <div class="content-wrapper" style="padding-top: 100px;">
-        <div class="container-fluid">
+      <div class="content-wrapper" style="padding-top: 120px;">
+        <h5 class="card-title fw-semibold mb-4">Edit</h5>
+        <div class="card">
           <div class="card-body">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="card">
-                  <img src="../assets/images/products/web_programming.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Web Programming</h5>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, suscipit.</p>
-                    <a href="index.html" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
               </div>
-              <div class="col-md-3">
-                <div class="card">
-                  <img src="../assets/images/products/cyber.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Cyber Security</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, officiis.</p>
-                    <a href="index.html" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
               </div>
-            </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
         </div>
       </div>
